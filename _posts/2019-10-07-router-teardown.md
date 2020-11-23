@@ -272,7 +272,6 @@ Starting kernel ...
 [    0.400000] io scheduler noop registered
 [    0.400000] io scheduler deadline registered (default)
 [    0.410000] Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
-[r¢êserial8250.0: ttyS0 at MMIO 0x18020000 (irq = 11) is a 16550A
 [    0.440000] console [ttyS0] enabled, bootconsole disabled
 [    0.440000] console [ttyS0] enabled, bootconsole disabled
 [    0.450000] m25p80 spi0.0: found w25q128, expected m25p80
