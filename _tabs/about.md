@@ -10,5 +10,4 @@ order: 4
 # MIT License
 ---
 
-
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+I'm a reverse engineer with a focus on embedded systems and low level firmware, I have been working as a reverse engineer in various fields since around 2012. My goal is to use this site to help give examples of what can be done through hardware reverse engineering as well as explain various concepts as I come across them. If you'd like to contact me for [consulting or training](https://www.voidstarsec.com/training) regarding embedded systems analysis or firmware reverse engineering, please see the contact links on the main page.
