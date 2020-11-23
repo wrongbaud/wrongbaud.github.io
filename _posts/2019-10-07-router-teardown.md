@@ -198,7 +198,6 @@ eth0: 00:03:7f:09:0b:ad
 eth0 up
 eth0
 Setting 0x181162c0 to 0x40802100
-Hit any key to stop autoboot:  1  0 
 ## Booting image at 9f040000 ...
    Image Name:   MIPS OpenWrt Linux-3.3.8
    Created:      2018-10-26   9:44:43 UTC
