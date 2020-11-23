@@ -8,10 +8,6 @@ description: 'Analysis of BasicFUN Nes ROMs'
 categories: [arcade]
 ---
 
-### Corrections and Omissions
-
-It should be noted for those that are trying to replicate this work, that in order to get a proper, consistent read from the SPI flash, the RESET button needed to be held in order to get a proper read. To mitigate this, I soldered the CS line to the reset switch on the board to do this automatically. 
-
 ## Background
 
 In the last post, we extracted the SPI flash, and found what appears to be a slightly modified Rampage ROM for the NES, see the differences in the start menu below:
