@@ -3,13 +3,9 @@ layout: post
 title:  "Writing a GHIDRA Loader: STM32 Edition."
 image: ''
 date:   2020-02-21 00:22:10
-tags:
-- ghidra
-- stm32
+tags: [ghidra,tools]
 description: ''
-categories:
-- reverse engineering
-- hardware
+categories: [ghidra]
 ---
 
 # Background

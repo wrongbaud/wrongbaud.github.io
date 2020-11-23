@@ -3,7 +3,7 @@ layout: post
 title:  "BasicFUN Series Part 1: Hardware Analysis / SPI Flash Extraction"
 image: ''
 date:   2019-05-26 00:06:31
-tags: [hardware, reverse engineering, spi]
+tags: [hardware,nes, spi]
 description: 'Dumping SPI flash chips in BasicFUN Cabinets'
 categories: [arcade]
 ---

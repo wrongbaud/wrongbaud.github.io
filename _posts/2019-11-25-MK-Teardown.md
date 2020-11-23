@@ -3,7 +3,7 @@ layout: post
 title:  "BasicFUN Series Part 3: Dumping Parallel Flash via I2C I/O Expanders"
 image: ''
 date:   2019-11-26 00:06:31
-tags: [hardware,reverse engineering,nand,i2c]
+tags: [hardware,nand,i2c]
 description: 'Using an ESP32 microcontroller to access and dump a parallel flash chip present on a BasicFUN Mortal Kombat cabinet'
 categories: [arcade]
 ---

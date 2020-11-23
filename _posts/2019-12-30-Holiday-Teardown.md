@@ -3,7 +3,7 @@ layout: post
 title:  "BasicFUN Series Part 4: I2C Sniffing, EEPROM Extraction and Parallel Flash Extraction"
 image: ''
 date:   2019-12-30 00:06:31
-tags: [hardware,reverse engineering,i2c,nand,spi]
+tags: [hardware,,i2c,nand,spi]
 description: 'Hardware teardown of handheld electronics'
 categories: [arcade]
 ---

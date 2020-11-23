@@ -3,9 +3,9 @@ layout: post
 title:  "Hardware Debugging for Reverse Engineers Part 1: SWD, OpenOCD and Xbox One Controllers"
 image: ''
 date:   2020-01-30 00:06:31
-tags: [hardware, reverse engineering,swd]
+tags: [hardware,swd]
 description: ''
-categories: [hardware debugging,arcade]
+categories: [arcade]
 ---
 
 ## Background
