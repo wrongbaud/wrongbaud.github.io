@@ -16,7 +16,7 @@ categories: [ghidra]
 
 This post will explain the following:
 
-* How to build the latest (or any) version of Ghidra using a [Docker Container]https://github.com/dukebarman/ghidra-builder)
+* How to build the latest (or any) version of Ghidra using a [Docker Container](https://github.com/dukebarman/ghidra-builder)
 * How to build the Ghidra Eclipse plugins
 * How to build a program [loader](https://github.com/SiD3W4y/GhidraGBA) for Ghidra
 * Debugging a program with Ghidra using the GDB stub
