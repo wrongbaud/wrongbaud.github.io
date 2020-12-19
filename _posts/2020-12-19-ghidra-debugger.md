@@ -466,7 +466,7 @@ Aha! This is exactly what was expected, instead of storing the actual ascii char
 Just to test this theory, let's see what happens if we enter ```CGHDR``` as the password and set the same breakpoints:
 
 ```
-Breakpoint 3, [34m0x0801c476[m in [33m??[m ()
+Breakpoint 3, 0x0801c476
 Can't determine the current process's PID: you must name one.
 (gdb)x/10x $r1
 0x2005998:  0x01  0x04  0x05  0x02  0x0d  0x00  0x00  0x00
