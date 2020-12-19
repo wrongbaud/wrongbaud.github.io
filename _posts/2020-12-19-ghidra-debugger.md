@@ -22,7 +22,7 @@ This post will explain the following:
 * Debugging a program with Ghidra using the GDB stub
 * Use the debugging capability to help us learn about how passwords are processed for a GBA game
 
-For this post, we're going to be taking a look at the Game Boy Advance game Spiderman: Mysterio's Menace. This was a game that spent a lot of time playing it's always fun revisiting childhood favorites from an RE perspective. The ultimate goal is to demonstrate how to properly load this ROM using a custom loader, and connect to an emulator's GDB stub using Ghidra's debugging features.
+For this post, we're going to be taking a look at the Game Boy Advance game Spiderman: Mysterio's Menace. I've been very much inspired by all of the awesome work that [stacksmashing and Liveoverflow have been doing regarding these topics](https://youtu.be/VVbRe7wr3G4). This was a game that spent a lot of time playing it's always fun revisiting childhood favorites from an RE perspective. The ultimate goal is to demonstrate how to properly load this ROM using a custom loader, and connect to an emulator's GDB stub using Ghidra's debugging features.
 
 **RE Note/Tangent:** When taking on a new reversing project, it's important to try to compartmentalize goals and targets. For example, if we said we just want to _reverse_ this game, that opens up endless possibilities. We could reverse engineer the collision detection, how enemy AI works, or how level maps are generated. For this post, we will pick a specific target and take a look at the password mechanism in use by this game.
 
