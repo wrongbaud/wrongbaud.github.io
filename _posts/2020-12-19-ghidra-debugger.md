@@ -472,13 +472,14 @@ Can't determine the current process's PID: you must name one.
 0x2005998:  0x01  0x04  0x05  0x02  0x0d  0x00  0x00  0x00
 0x20059a0:  0x00  0x60
 ```
+
 | Index Val | Character Val | 
 | --------- | ------------- | 
-| 0x1 | "C" | 
-| 0x04 | "G" | 
-| 0x05 | "H" | 
-| 0x02 | "D" | 
-| 0xD | "R" | 
+| 0x1       | "C" | 
+| 0x04      | "G" | 
+| 0x05      | "H" | 
+| 0x02      | "D" | 
+| 0xD       | "R" | 
 
 
 Exactly as we expected - so now we have an idea as to how these passwords get stored, what they look like in memory and we can debug/set breakpoints from within Ghidra. I think that this makes for a good stopping point - for the next post, we will research some of these other password functions using Ghidra and the remote GDB debugging functionality that we set up today.
