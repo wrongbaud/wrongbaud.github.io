@@ -264,7 +264,7 @@ undefined4 render_pw_screen(int param_1)
 }
 ```
 
-If we take a look at this function, we can see that a ```FUN_0801b764``` is being called with the ```@ - Accept   & - Backspace``` string. Later on, we see that the same function is called with the variable containing our string of interest. If we investigate ```FUN_0801b764``` further, it copies the data from the second variable (the ASCII string) to the memory address of the first argument.  At this point, we can't say for sure - but this makes me think that this particular subroutine is likely for rendering the text on the screen so I am doing to ignore it for now and move onto the next usage of our password character string which can be seen below:
+If we take a look at this function, we can see that a ```FUN_0801b764``` is being called with the ```@ - Accept   & - Backspace``` string. Later on, we see that the same function is called with the variable containing our string of interest. If we investigate ```FUN_0801b764``` further, it copies the data from the second variable (the ASCII string) to the memory address of the first argument.  At this point, we can't say for sure - but this makes me think that this particular subroutine is likely for rendering the text on the screen so I am going to ignore it for now and move onto the next usage of our password character string which can be seen below:
 
 ```c
 undefined8 FUN_0801c454(int param_1)
