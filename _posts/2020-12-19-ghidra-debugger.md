@@ -104,6 +104,7 @@ If you are a regular reader of this blog, a [ghidra loader](https://wrongbaud.gi
 cd ghidra-builder/workdir
 git clone https://github.com/SiD3W4y/GhidraGBA
 sudo ../docker-tpl/run /bin/bash
+dockerbot@797eb43ce05f:/$ cd /files/GhidraGBA 
 dockerbot@797eb43ce05f:/files/GhidraGBA$ export GHIDRA_INSTALL_DIR=/files/ghidra_9.3_DEV/
 dockerbot@797eb43ce05f:/files/GhidraGBA$ gradle
 dockerbot@797eb43ce05f:/files/GhidraGBA$ cp dist/ghidra_9.3_DEV_20201218_GhidraGBA.zip ../ghidra_9.3_DEV/Extensions/Ghidra/
